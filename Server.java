@@ -10,9 +10,9 @@ public class Server implements Runnable{
     private ServerSocket ss = null;
     private boolean close = false;
     //ip
-    private String ip="127.0.0.1";
+    private String ip="134.226.56.4";
     //port
-    private Integer port=7777;
+    private Integer port=8888;
     //房间集合
     private ArrayList<Map<String,Object>> map = new ArrayList<Map<String,Object>>(); 
     //房间名
@@ -40,9 +40,7 @@ public class Server implements Runnable{
                 //另外开辟一个线程，专门为这个s服务，负责接受信息
                 ChatThread ct = new ChatThread(t);  
                 clients.add(ct);
-                ct.start();
-                ct.ps.println("Connection Successful for host "+ip+" on port "+port+".");
- 
+                ct.start(); 
             }
         }catch(Exception ex){}
     }
