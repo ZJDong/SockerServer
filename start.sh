@@ -1,5 +1,5 @@
 # Start the Server
 
-echo start Server...
+echo start Server
 cd /home/ScaleableComputing
 java Server
