@@ -10,7 +10,7 @@ public class Server implements Runnable{
     private ServerSocket ss = null;
     private boolean close = false;
     //ip
-    private String ip="134.226.56.4";
+    private String ip="10.62.0.139";
     //port
     private Integer port=8090;
     //���伯��
