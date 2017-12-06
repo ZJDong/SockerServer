@@ -8,3 +8,6 @@ excute Linux command 'sh start.sh' to start Server
 
 test it at following link using auto testing system:
   - https://www.scss.tcd.ie/Stephen.Barrett/teaching/CS4400/chat_server_test.html
+
+Student ID: 17313074
+E-mail: dongz@tcd.ie
