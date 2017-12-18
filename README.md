@@ -1,5 +1,5 @@
 # Socket Server
-This is Task 1 of Scalable Computing Moduel.
+This is Task 1 for Scalable Computing Moduel.
 
 To start the test, please do:
 
